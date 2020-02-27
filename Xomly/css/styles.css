@@ -1,0 +1,211 @@
+body {
+  margin: 0;
+  font-family: 'Roboto', tahoma, helvetica;
+}
+
+h3 {
+  text-align: center;
+  font-size: 24px;
+  display: inline-block;
+}
+
+p {
+
+}
+
+/* Navbar */
+.navbar {
+  padding: 0 5rem;
+  background-color: rgb(255, 255, 255, 0.9);
+}
+
+.fa-times-circle {
+  padding-right: 10px;
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 15px;
+  color: #262626;
+}
+
+.spacer {
+  border-left: 1px solid #262626;
+  height: 25px;
+  width: 0;
+  margin-top: 7px;
+  padding: 0;
+}
+
+.btn {
+  margin-left: 15px;
+  padding: 1px 25px;
+  border-radius: 10px;
+}
+
+/* Title */
+.bg-cover {
+  background-color: rgb(255, 255, 255, 0.5);
+  background-image: url("../images/sales.jpg");
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: 100%;
+  height: 450px;
+  position: relative;
+}
+
+.container-fluid {
+  margin: 0;
+  padding: 0;
+}
+
+.blue-box {
+  background-color: rgb(8, 45, 82, .65);
+  width: 90%;
+  height: 30px;
+  margin-top: 62px;
+  position: absolute;
+}
+
+.blue-box::after {
+  border-right-width: 0;
+  content: '';
+  line-height: 0;
+  font-size: 0;
+  width: 0;
+  height: 0;
+  position: absolute;
+  top: 0;
+  left: 100%;
+  border-top: 30px solid rgb(8, 45, 82, .65);
+  border-bottom: 0 solid transparent;
+  border-left: 0 solid transparent;
+  border-right: 32px solid transparent;
+}
+
+.green-box {
+  background-color: rgb(37, 102, 39, .65);
+  height: 200px;
+  width: 60%;
+  position: absolute;
+  margin-top: 104px;
+}
+
+.green-box::after {
+  border-right-width: 0;
+  content: '';
+  line-height: 0;
+  font-size: 0;
+  width: 0;
+  height: 0;
+  position: absolute;
+  top: 0;
+  left: 100%;
+  border-top: 0 solid transparent;
+  border-bottom: 200px solid rgb(37, 102, 39, .65);
+  border-left: 0 solid transparent;
+  border-right: 80px solid transparent;
+}
+
+span {
+  font-size: 20px;
+}
+
+.title-definition {
+  width: 450px;
+  position: absolute;
+  top: 45px;
+  right: 10px;
+  color: #fff;
+  line-height: 1.5;
+}
+
+.red-box {
+  position: absolute;
+  background-color: rgb(184, 37, 37, .65);
+  width: 75%;
+  height: 40px;
+  right: 0;
+  margin-top: 314px;
+}
+
+.red-box::before {
+  content: '';
+  line-height: 0;
+  font-size: 0;
+  width: 0;
+  height: 0;
+  position: absolute;
+  top: 0;
+  right: 100%;
+  border-top: 0 solid transparent;
+  border-bottom: 40px solid rgb(184, 37, 37, .65);
+  border-left: 42px solid transparent;
+  border-right: 0 solid transparent;
+}
+
+
+/* features */
+#features {
+  position: relative;
+  padding: 5rem;
+}
+
+.features-img {
+  position: relative;
+  width: 275px;
+  padding-top: 60px;
+  padding-right: 30px;
+}
+
+.feature-box {
+  position: relative;
+  text-align: left;
+  width: 25%;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.features-p {
+  font-size: 16px;
+  color: #afafaf;
+  line-height: 1.5;
+}
+
+.features-title {
+  position: relative;
+  padding-bottom: 15px;
+}
+
+.fa-map {
+  color: rgb(8, 45, 82);
+  display: inline-block;
+}
+
+.strategies {
+  color: rgb(8, 45, 82);
+}
+
+.fa-tools {
+  color: rgb(37, 102, 39);
+  display: inline-block;
+}
+
+.tools {
+  color: rgb(37, 102, 39);
+}
+
+.fa-lightbulb {
+  color: rgb(184, 37, 37);
+  display: inline-block;
+}
+
+.insights {
+  color: rgb(184, 37, 37);
+}
